@@ -32,10 +32,10 @@ export const JsonLdArticle = ({article}) => (
             },
             "publisher": {
                 "@type": "Organization",
-                "name": "Purple Facts",
+                "name": "next-seed",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": logos.png.purple
+                    "url": logos.png
                 }
             },
             "description": article.summary

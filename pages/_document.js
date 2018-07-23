@@ -90,7 +90,7 @@ export default class MyDocument extends Document {
     get defaultHelmet() {
         return (
             <Helmet>
-                <title>Purple Facts | Real Estate Investing in the Age of Technology</title>
+                <title>next-seed</title>
                 <meta property="og:image" content={logos.banner} />
             </Helmet>
         )

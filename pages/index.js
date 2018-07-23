@@ -3,16 +3,16 @@ import Helmet from 'react-helmet'
 
 // COMPONENTS
 import Layout from '../components/Layout'
-import { PageContainer, LogoBanner, TextImgGrid, TextImgRow, Purple } from '../components/_common'
+import { PageContainer, LogoBanner, TextImgGrid, TextImgRow } from '../components/_common'
 
 // SERVICES
-import { loadFeaturedArticles } from '../services/blogService';
+// ???
 
 const Index = (props) => (
     <Layout>
 
         <Helmet>
-            <title>Purple Facts | Real Estate Investing in the Age of Technology</title>
+            <title>next-seed</title>
         </Helmet>
         
         <LogoBanner />
@@ -59,10 +59,5 @@ const Index = (props) => (
     </Layout>
 
 )
-
-Index.getInitialProps = async function({ req }) {
-	const featuredArticles = await loadFeaturedArticles(req)
-    return { featuredArticles }
-}
 
 export default Index

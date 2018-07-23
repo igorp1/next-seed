@@ -31,9 +31,9 @@ const SlackBot = {
 
     trafficNotifcation : (ip) => {
         sendSlackNotification({
-            fallback : `Traffic On Purple Facts`,
+            fallback : `Traffic On next-seed`,
             color : '#a956bf',
-            author_name : `Traffic On Purple Facts`,
+            author_name : `Traffic On next-seed`,
             author_icon : waveIcon,
             title : ip,
             title_link : `https://www.infobyip.com/ip-${ip}.html`,

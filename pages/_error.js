@@ -26,7 +26,7 @@ export class ErrorMessage extends React.Component{
         return (
             <div style={{textAlign: 'center'}}>
                 <Helmet>
-                    <title>Something went wrong here | Purple Facts</title>
+                    <title>Something went wrong here | next-seed</title>
                 </Helmet>
                 <br /><br />
 
@@ -38,14 +38,7 @@ export class ErrorMessage extends React.Component{
                     <i className="material-icons">home</i><br /><br />
                     Go back Home
                 </OptionCard></Link>
-                <Link href="/blog"><OptionCard space>
-                    <i className="material-icons">library_books</i><br /><br />
-                    Go back to Blog
-                </OptionCard></Link>
-                <Link href="/resources"><OptionCard space>
-                    <i className="material-icons">category</i><br /><br />
-                    Go to Resources
-                </OptionCard></Link>
+    
                 <br /><br /><br /><br /><br />
 
                 {/* BUG REPORT */}

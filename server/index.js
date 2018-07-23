@@ -14,9 +14,9 @@ app.prepare()
     
     // REGISTER CLEAN URLs 
     const pages = {
-        '/blog/post' : { 
-            masked : '/blog/:slug', 
-            params : ['slug']    
+        '/admin/example' : { 
+            masked : '/admin/:id', 
+            params : ['id']    
         }
     }
     Object.keys(pages).map( page => {

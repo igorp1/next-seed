@@ -44,10 +44,6 @@ export const Loader = styled.div`
     ${props => props.hidden && css`
         display: none;
     `} 
-    ${props => props.purple && css`
-        background-color: rgba(0,0,0,0.4);
-        &:before{background-color: ${colorPrimary} }
-    `} 
 `
 
 export const PageContainer = styled.div`

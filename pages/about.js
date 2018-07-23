@@ -10,7 +10,7 @@ import { PageContainer, TextImgGrid, TextImgRow } from '../components/_common';
 const About = (props) => (
 	<Layout>
         <Helmet>
-            <title>Learn About our Company and Methodology | Purple Facts</title>
+            <title>About page| next-seed</title>
         </Helmet>
 
         <PageContainer>

@@ -14,7 +14,7 @@ export const colorError = '#DE2436'
 
 // LOGOS
 export const logos = {
-    png : "/static/logo/purple-facts-logo.svg",
+    png : "/static/logo/logo-white.svg",
     svg : "/static/logo/logo-white.svg",
     banner : '/static/logo/banner.png'
 }

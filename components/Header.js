@@ -186,7 +186,7 @@ export default class Header extends React.Component {
 						<i className="material-icons">menu</i>
 					</div>
 					<Link href="/">
-						<img alt="Purple Facts logo" src={logos.svg} />
+						<img title="logo" alt="logo" src={logos.svg} />
 					</Link>
 					<HeaderNav top>
 						{this.navLinks}
