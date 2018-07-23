@@ -55,7 +55,6 @@ const Index = (props) => (
             </TextImgGrid>
         </PageContainer>
 
-
     </Layout>
 
 )
