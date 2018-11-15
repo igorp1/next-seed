@@ -11,7 +11,7 @@
     "start": "NODE_ENV=production node server/index.js",
     "dockerize": "docker build -t nextproject .",
     "docker": "docker run -d -p 3000:3000 --name nextproject nextproject",
-    "prearchive" : "rm -rf .next node_modules",
+    "prearchive": "rm -rf .next node_modules",
     "archive": "zip -r \"`DATE`.zip\" *",
     "postarchive": "yarn install"
   },
@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.5.1",
-    "nodemon": "^1.18.2"
+    "nodemon": "^1.18.4"
   }
 }
